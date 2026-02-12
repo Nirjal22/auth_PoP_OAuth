@@ -22,7 +22,7 @@ export default function RegisterPage() {
 
     const data = await res.json()
     console.log(data)
-    window.alert("Registration successful! Please log in.")
+    // window.alert("Registration successful! Please log in.")
   }
 
   return (
